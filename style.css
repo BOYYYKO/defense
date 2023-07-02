@@ -1,0 +1,217 @@
+/* --FONTS-- */
+@font-face {
+    font-family: "TTNorms-Bold";
+    src: url("/fonts/TTNorms-Bold.ttf");
+}
+
+@font-face {
+    font-family: "TTNorms-Regular";
+    src: url("/fonts/TTNorms-Regular.ttf");
+}
+
+@font-face {
+    font-family: "TTCommonsPro-Bold";
+    src: url("/fonts/TTCommonsPro-Bold.ttf");
+}
+
+/* --MAIN-- */
+
+* {
+    transition: 0.4s;
+}
+
+body {
+    margin: 0;
+    min-width: 100%;
+    color: #191919;
+}
+
+main {
+    padding: 0px 50px;
+    min-height: 100vh;
+    background-image: url("/images/background-1.jpg");
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    padding: 0px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
+
+/* --HEADER-- */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px 70px 0px;
+    height: 100px;
+}
+
+.header-content>a {
+    align-self: center;
+}
+
+.header-content>a>.logo {
+    width: 180px;
+}
+
+.lang-button {
+    background-color: #ffffff;
+    font-family: 'TTNorms-Bold', bold;
+    font-size: 18px;
+    padding: 6px 12px;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.lang-button:hover {
+    transform: scale(1.1);
+}
+
+/* --BANNER-- */
+.button {
+    background-color: #ffffff;
+    font-size: 22px;
+    font-family: 'TTNorms-Regular', regular;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 30px;
+}
+
+.button:hover,
+.disable,
+.disable:hover {
+    background-color: rgba(256, 256, 256, 0.4);
+    transform: scale(0.9);
+}
+
+.disable:hover {
+    transform: scale(0.8);
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 200px;
+}
+
+.banner-content > .section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.button-section {
+    align-items: center;
+    gap: 10px;
+}
+
+.button-bold {
+    font-family: 'TTNorms-Bold', bold;
+}
+
+.h1 {
+    font-family: 'TTNorms-Bold', bold;
+    font-size: 85px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.blue-ellipse {
+    position: relative;
+    bottom: 140px;
+    transition: 0.4s;
+}
+
+.yellow-ellipse {
+    position: relative;
+    top: 150px;
+    right: 70px;
+    transition: 0.4s;
+}
+
+.blue-ellipse:hover,
+.yellow-ellipse:hover {
+    transform: scale(1.4);
+}
+
+/* --MISSION-- */
+.mission-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.mission-content > .section {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.hand-section {
+    align-content: center;
+}
+
+.image-section > .hand {
+    width: 400px;
+    position: relative;
+    right: 100px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-section > .title {
+    font-family: 'TTNorms-Bold', bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+.text-section > .description {
+    width: 450px;
+    text-align: justify;
+    font-family: 'TTNorms-Regular', regular;
+    font-size: 20px;
+}
+
+/* --GOALS-- */
+.goals-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.goals-content > .section {
+    display: flex;
+    align-content: flex-start;
+}
+
+.goals-content > .image-section > img {
+    width: 500px;
+}
+
+.goals-content > .text-section > .description {
+    width: 600px;
+}
