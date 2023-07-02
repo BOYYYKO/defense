@@ -194,7 +194,7 @@ a {
     text-align: center;
 }
 
-.text-section > .title {
+.text-section > .title, .title {
     font-family: 'TTNorms-Bold', bold;
     font-size: 48px;
     margin: 0;
@@ -271,4 +271,42 @@ a {
 
 .president-title {
     padding-bottom: 20px;
+}
+
+/* --OUR WORK-- */
+.our-work-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.our-work-content > title{
+    text-align: center;
+}
+
+.blocks-section{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.block {
+    display: flex;
+    margin: 0px 30px;
+    justify-content: center;
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 0px 50px 0px 50px;
+}
+
+.block > img {
+    width: 85%;
+    margin: 25px 0px;
+    height: fit-content;
+    border-radius: 0px 30px 0px 0px;
+}
+
+.our-work {
+    padding-bottom: 150px;
 }
