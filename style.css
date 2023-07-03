@@ -186,7 +186,7 @@ a {
 }
 
 .image-section > .hand {
-    width: 400px;
+    width: 400px !important;
     position: relative;
     right: 100px;
 }
@@ -384,4 +384,9 @@ a {
 
 .coorperation {
     padding-bottom: 150px
+}
+
+/* --HOUSES-- */
+.houses{
+    border-radius: 0px 80px 0px 80px;
 }
