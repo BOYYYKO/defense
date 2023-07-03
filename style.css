@@ -32,7 +32,7 @@ body {
     background-size: auto;
     background-attachment: scroll;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     color: #191919;
 }
 
@@ -334,7 +334,7 @@ a {
 
 .text-container {
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
     padding:20px;
 }
 
