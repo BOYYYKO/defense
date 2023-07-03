@@ -167,6 +167,10 @@ a {
     top: 100px;
 }
 
+.mission-content > .image-section > img {
+    width: 100%;
+}
+
 .image-section {
     display: flex;
     justify-content: center;
