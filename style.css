@@ -402,7 +402,6 @@ a {
 /* --FOOTER-- */
 .footer-content {
     display: flex;
-    width: 100%;
     margin-bottom: 50px;
 }
 
