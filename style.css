@@ -52,11 +52,17 @@ a {
     color: #191919;
 }
 
+.divider {
+    height: 2px;
+    background-color: #191919;
+    margin-bottom: 100px;
+}
+
 /* --HEADER-- */
 .header-content {
     display: flex;
     justify-content: space-between;
-    padding: 35px 0px 70px 0px;
+    padding: 35px 0px 10px 0px;
     height: 100px;
 }
 
@@ -104,6 +110,7 @@ a {
 
 .banner-content {
     display: flex;
+    padding-top: 170px;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 200px;
@@ -389,4 +396,45 @@ a {
 /* --HOUSES-- */
 .houses{
     border-radius: 0px 80px 0px 80px;
+}
+
+/* --FOOTER-- */
+footer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+footer > .column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer > .column > .line {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+footer > .column > .title {
+    font-family: 'TTNorms-Bold', bold;
+    font-size: 48px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.footer-divider{
+    margin-bottom: 50px;
+}
+
+footer > .column > .line > p, footer > .column > .line > .numbers > p{
+    margin-left: 5px;
+    font-family: 'TTNorms-Bold', bold;
+    font-size: 22px;
 }
