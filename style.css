@@ -209,8 +209,8 @@ a {
     width: 600px;
     text-align: justify;
     font-family: 'TTNorms-Regular', regular;
-    font-size: 29px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 40px;
 }
 
 /* --GOALS-- */
@@ -368,7 +368,7 @@ a {
 
 .coorp-img{
     width: 100%;
-    border-radius: 0px 80px 0px 0px;
+    border-radius: 80px 0px 80px 0px;
 }
 
 .coorperation-content{
