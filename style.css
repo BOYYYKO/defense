@@ -384,7 +384,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 45px;
+    gap: 15px;
 }
 
 .coorperation-content > title{
@@ -620,6 +620,7 @@ a {
 
     .text-section > .title, .title, .goals-content > .text-section > .title {
         font-size: 45px;
+        text-align: center;
         padding-bottom: 20px;
     }
 
