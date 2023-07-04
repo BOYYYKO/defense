@@ -365,7 +365,7 @@ a {
 }
 
 .coorp > .text-section > a{
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .coorp > .text-section > .description {
@@ -598,7 +598,7 @@ a {
     }
 
     .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
-        width: 60%;
+        width: 50%;
         height: auto;
     }
 
