@@ -184,7 +184,7 @@ a {
 
 .mission-content > .image-section > img {
     width: 80%;
-    height: auto;
+    height: fit-content;
 }
 
 .image-section {
@@ -470,6 +470,7 @@ a {
 
     .goals-content > .image-section > img {
         width: 60%;
+        height: fit-content;
         top: 0;
     }
 
@@ -519,6 +520,7 @@ a {
 
     .mission-content > .image-section > img, .goals-content > .image-section > img {
         width: 60%;
+        height: fit-content;
     }
 }
 
