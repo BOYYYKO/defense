@@ -15,7 +15,8 @@
 }
 
 /* --MAIN-- */
-p, h1 {
+p,
+h1 {
     margin: 0;
 }
 
@@ -49,7 +50,7 @@ main {
     display: none;
 }
 
-.content{
+.content {
     padding: 0px 50px;
 }
 
@@ -118,7 +119,7 @@ a {
 
 .banner-content {
     display: flex;
-    padding-top: 170px;
+    padding-top: 80px;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 200px;
@@ -172,23 +173,23 @@ a {
     padding-bottom: 150px;
 }
 
-.mission-content > .section {
+.mission-content>.section {
     display: flex;
     align-items: center;
     align-self: center;
 }
 
-.mission-content > .image-section > img {
+.mission-content>.image-section>img {
     width: 80%;
-    height:auto;
+    height: auto;
 }
 
-.ambassador-image > img {
+.ambassador-image>img {
     width: 80%;
 }
 
-.coorperation-section > img {
-    width:100% !important;
+.coorperation-section>img {
+    width: 100% !important;
 }
 
 .image-section {
@@ -207,14 +208,15 @@ a {
     text-align: center;
 }
 
-.text-section > .title, .title {
+.text-section>.title,
+.title {
     font-family: 'TTNorms-Bold', bold;
     font-size: 48px;
     margin: 0;
     padding-bottom: 40px;
 }
 
-.text-section > .description {
+.text-section>.description {
     width: 600px;
     text-align: justify;
     font-family: 'TTNorms-Regular', regular;
@@ -229,14 +231,14 @@ a {
     padding-bottom: 150px;
 }
 
-.goals-content > .section {
+.goals-content>.section {
     display: flex;
     justify-content: flex-start;
 }
 
-.goals-content > .image-section > img {
+.goals-content>.image-section>img {
     width: 90%;
-    height:auto;
+    height: auto;
     position: relative;
     top: 50px;
 }
@@ -253,12 +255,12 @@ a {
     gap: 15px;
 }
 
-.president-header > img {
+.president-header>img {
     width: 50px;
     height: auto;
 }
 
-.president-header > p{
+.president-header>p {
     font-family: 'TTNorms-Bold', bold;
     font-size: 20px;
 }
@@ -270,12 +272,12 @@ a {
     padding-bottom: 150px;
 }
 
-.president-content > .text-section {
+.president-content>.text-section {
     position: relative;
     top: 50px;
 }
 
-.image-section > .president {
+.image-section>.president {
     width: 90%;
     height: auto;
 }
@@ -285,31 +287,31 @@ a {
 }
 
 /* --OUR WORK-- */
-.our-work-content{
+.our-work-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
 }
 
-.our-work-content > title{
+.our-work-content>title {
     text-align: center;
 }
 
-.blocks-section{
+.blocks-section {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    gap:30px;
+    gap: 30px;
 }
 
 .work-block {
-    padding:0px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
     display: flex;
     flex-direction: column;
 }
 
-.block > p {
+.block>p {
     align-self: center;
     text-align: center;
     margin: 0px 30px;
@@ -326,14 +328,14 @@ a {
     border-radius: 0px 50px 0px 50px;
 }
 
-.learn-button{
+.learn-button {
     font-size: 28px;
 }
 
-.block > img {
+.block>img {
     align-self: center;
     width: 85%;
-    height:auto;
+    height: auto;
     margin: 25px 0px;
     height: auto;
     border-radius: 0px 30px 0px 30px;
@@ -342,14 +344,14 @@ a {
 .text-container {
     background-color: #ffffff;
     border-radius: 20px;
-    padding:20px;
+    padding: 20px;
 }
 
 .our-work {
     padding-bottom: 70px
 }
 
-.text-container > .description {
+.text-container>.description {
     font-family: 'TTNorms-Regular', regular;
     font-size: 25px;
     text-align: center;
@@ -360,33 +362,33 @@ a {
     gap: 45px;
 }
 
-.coorp > .text-section {
+.coorp>.text-section {
     top: 0;
 }
 
-.coorp > .text-section > a{
+.coorp>.text-section>a {
     padding-top: 10px;
 }
 
-.coorp > .text-section > .description {
+.coorp>.text-section>.description {
     font-size: 24px;
     line-height: 40px;
 }
 
-.coorp-img{
+.coorp-img {
     width: 100%;
-    height:auto;
+    height: auto;
     border-radius: 80px 0px 80px 0px;
 }
 
-.coorperation-content{
+.coorperation-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
 
-.coorperation-content > title{
+.coorperation-content>title {
     text-align: center;
 }
 
@@ -395,11 +397,11 @@ a {
 }
 
 /* --HOUSES-- */
-.support{
+.support {
     border-radius: 80px 0px 80px 0px;
 }
 
-.houses{
+.houses {
     border-radius: 0px 80px 0px 80px;
 }
 
@@ -409,20 +411,20 @@ a {
     margin-bottom: 50px;
 }
 
-.footer-content > .column {
+.footer-content>.column {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer-content > .column > .line {
+.footer-content>.column>.line {
     display: flex;
     gap: 5px;
     align-items: center;
 }
 
-.footer-content > .column > .title {
+.footer-content>.column>.title {
     font-family: 'TTNorms-Bold', bold;
     font-size: 48px;
     margin: 0;
@@ -433,11 +435,12 @@ a {
     width: 40px;
 }
 
-.footer-divider{
+.footer-divider {
     margin-bottom: 50px;
 }
 
-.footer-content > .column > .line > p, .footer-content > .column > .line > .numbers > p{
+.footer-content>.column>.line>p,
+.footer-content>.column>.line>.numbers>p {
     margin-left: 5px;
     font-family: 'TTNorms-Bold', bold;
     font-size: 22px;
@@ -448,16 +451,18 @@ a {
     .banner-content {
         padding-top: 40px;
     }
-    
-    .h1{
+
+    .h1 {
         font-size: 64px;
     }
-    .blue-ellipse{
+
+    .blue-ellipse {
         bottom: 100px;
         width: 70px;
         right: 10px;
         height: auto;
     }
+
     .yellow-ellipse {
         top: 120px;
         right: 40px;
@@ -465,7 +470,8 @@ a {
         height: auto;
     }
 
-    .mission-content, .president-content{
+    .mission-content,
+    .president-content {
         flex-direction: column-reverse;
         gap: 20px;
     }
@@ -475,38 +481,44 @@ a {
         gap: 20px;
     }
 
-    .goals-content > .image-section {
+    .goals-content>.image-section {
         justify-content: center;
     }
 
-    .goals-content > .image-section > img, .president-content > .image-section > img{
+    .goals-content>.image-section>img,
+    .president-content>.image-section>img {
         width: 60%;
         height: auto;
         top: 0;
     }
-    .coorperation-section > img {
-        width:60% !important;
+
+    .coorperation-section>img {
+        width: 60% !important;
     }
-    
+
 
     .goals-content {
         flex-direction: column;
-        gap: 50px;
+        gap: 15px;
     }
 
-    .mission-content > .text-section, .goals-content > .text-section, .president-content > .text-section  {
+    .mission-content>.text-section,
+    .goals-content>.text-section,
+    .president-content>.text-section {
         top: 0;
     }
 
-    .text-section > .description {
+    .text-section>.description {
         width: auto;
     }
 
     .president {
-        gap:20px;
+        gap: 20px;
     }
-    
-    .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
+
+    .mission-content>.image-section>img,
+    .goals-content>.image-section>img,
+    .president-content>.image-section>img {
         width: 60%;
         height: auto;
     }
@@ -531,7 +543,7 @@ a {
 
 @media only screen and (max-width: 868px) {
 
-    .blue-ellipse{
+    .blue-ellipse {
         bottom: 150px;
         right: 0;
     }
@@ -545,7 +557,7 @@ a {
         flex-direction: column;
     }
 
-    .banner-content{
+    .banner-content {
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -555,24 +567,29 @@ a {
         align-items: center;
         justify-content: center;
     }
-    
-    .banner-content, .goals-content {
-        gap: 50px;
+
+    .banner-content{
+        gap: 45px;
+    }
+    .goals-content {
+        gap: 15px;
     }
 
     .h1 {
         font-size: 84px;
     }
 
-    .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
+    .mission-content>.image-section>img,
+    .goals-content>.image-section>img,
+    .president-content>.image-section>img {
         width: 60%;
         height: auto;
     }
 
-    .coorperation-section > img {
-        width:90% !important;
+    .coorperation-section>img {
+        width: 90% !important;
     }
-    
+
 
     .block {
         width: 70%;
@@ -592,21 +609,27 @@ a {
         padding: 20px 20px 20px 20px;
     }
 
-    .logo { 
+    .logo {
         width: 150px !important;
         height: auto;
     }
 
-    .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
+    .mission-content>.image-section>img,
+    .goals-content>.image-section>img,
+    .president-content>.image-section>img {
         width: 50%;
         height: auto;
     }
 
-    .mission-content, .president-content, .banner-content, .goals-content {
+    .mission-content,
+    .president-content,
+    .banner-content,
+    .goals-content {
         margin-bottom: 40px;
     }
 
-    .goals-content > .text-section > .title, .title {
+    .goals-content>.text-section>.title,
+    .title {
         font-size: 42px;
     }
 
@@ -620,11 +643,11 @@ a {
         gap: 80px;
     }
 
-    .footer-content > .column {
+    .footer-content>.column {
         width: 100%;
     }
 
-    .footer-content > .column > .title{
+    .footer-content>.column>.title {
         text-align: center;
     }
 }
@@ -639,7 +662,7 @@ a {
         font-size: 54px;
     }
 
-    .blue-ellipse{
+    .blue-ellipse {
         width: 50px;
         bottom: 110px;
     }
@@ -649,33 +672,34 @@ a {
         top: 110px;
     }
 
-    .goals-content > .image-section > img, .president-content > .image-section > img{
-        width: 95%;
+    .goals-content>.image-section>img,
+    .president-content>.image-section>img {
+        width: 55%;
     }
 
-    .banner-content, .goals-content {
+    .banner-content,
+    .goals-content {
         margin-bottom: 20px;
     }
 
-    .text-section > .title, .title, .goals-content > .text-section > .title {
+    .text-section>.title,
+    .title,
+    .goals-content>.text-section>.title {
         font-size: 35px;
         text-align: center;
         padding-bottom: 20px;
     }
 
-    .text-section > .description, .text-container > .description  {
+    .text-section>.description,
+    .text-container>.description {
         font-size: 16px !important;
         line-height: 20px !important;
     }
 
-    .block {
-        width: 90%;
-    }
-
-    .block > p {
+    .block>p {
         font-size: 22px;
     }
-    
+
     .coorperation {
         padding-bottom: 40px;
     }
@@ -684,16 +708,17 @@ a {
         width: 90% !important;
     }
 
-    .footer-content > .column > .title{
+    .footer-content>.column>.title {
         font-size: 36px;
         padding-bottom: 10px;
     }
 
-    .footer-content > .column > .line > p, .footer-content > .column > .line > .numbers > p {
+    .footer-content>.column>.line>p,
+    .footer-content>.column>.line>.numbers>p {
         font-size: 16px;
     }
 
-    .banner-button{
+    .banner-button {
         font-size: 16px !important;
     }
 }
@@ -702,7 +727,7 @@ a {
     .h1 {
         font-size: 42px;
     }
-    
+
     .blue-ellipse {
         bottom: 90px;
     }
@@ -711,11 +736,13 @@ a {
         top: 90px;
     }
 
-    .text-section > .title, .title, .goals-content > .text-section > .title {
+    .text-section>.title,
+    .title,
+    .goals-content>.text-section>.title {
         font-size: 28px;
     }
 
-    .text-section > .description {
+    .text-section>.description {
         text-align: center;
     }
 
@@ -723,6 +750,4 @@ a {
         font-size: 20px;
         padding: 13px 26px;
     }
-
-
 }
