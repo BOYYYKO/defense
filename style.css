@@ -26,21 +26,27 @@ p, h1 {
 body {
     margin: 0;
     width: 100%;
+    min-width: 320px;
     display: flex;
     justify-content: center;
     background-image: url("/images/background-1.jpg");
     background-size: auto;
     background-attachment: scroll;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     color: #191919;
+    background-repeat: repeat-y;
 }
 
 main {
     width: 1340px;
-    min-width: 1340px;
+    min-width: 320px;
     max-width: 1340px;
     min-height: 100vh;
+}
+
+.phantom {
+    display: none;
 }
 
 .content{
@@ -117,15 +123,15 @@ a {
     margin-bottom: 200px;
 }
 
-.banner-content > .section {
-    width: 50%;
+.button-section {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-.button-section {
+.label-section {
+    display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .button-bold {
@@ -134,7 +140,8 @@ a {
 
 .h1 {
     font-family: 'TTNorms-Bold', bold;
-    font-size: 85px;
+    white-space: nowrap;
+    font-size: 78px;
     text-align: center;
     width: 100%;
 }
@@ -176,13 +183,8 @@ a {
 }
 
 .mission-content > .image-section > img {
-    width: 100%;
+    width: 80%;
     height: auto;
-}
-
-.image-section {
-    display: flex;
-    justify-content: center;
 }
 
 .image-section {
@@ -192,12 +194,6 @@ a {
 
 .hand-section {
     align-content: center;
-}
-
-.image-section > .hand {
-    width: 400px !important;
-    position: relative;
-    right: 100px;
 }
 
 .text-section {
@@ -231,18 +227,14 @@ a {
 
 .goals-content > .section {
     display: flex;
-    align-content: flex-start;
+    justify-content: flex-start;
 }
 
 .goals-content > .image-section > img {
-    width: 550px;
+    width: 90%;
     height:fit-content;
     position: relative;
     top: 50px;
-}
-
-.goals-content > .text-section > .description {
-    width: 600px;
 }
 
 /* --PRESIDENT-- */
@@ -440,4 +432,179 @@ a {
     margin-left: 5px;
     font-family: 'TTNorms-Bold', bold;
     font-size: 22px;
+}
+
+/* --ADAPTIVE-- */
+@media only screen and (max-width: 1024px) {
+    .banner-content {
+        padding-top: 40px;
+    }
+    
+    .button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .h1{
+        font-size: 64px;
+    }
+    .blue-ellipse{
+        bottom: 100px;
+        width: 70px;
+        right: 10px;
+        height: fit-content;
+    }
+    .yellow-ellipse {
+        top: 120px;
+        right: 40px;
+        width: 70px;
+        height: fit-content;
+    }
+
+    .mission-content {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .goals-content > .image-section {
+        justify-content: center;
+    }
+
+    .goals-content > .image-section > img {
+        width: 60%;
+        top: 0;
+    }
+
+    .goals-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .mission-content > .text-section, .goals-content > .text-section  {
+        top: 0;
+    }
+
+    .text-section > .description {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+
+    .blue-ellipse{
+        bottom: 150px;
+        right: 0;
+    }
+
+    .yellow-ellipse {
+        top: 140px;
+        right: 40px;
+    }
+
+    .banner-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .goals-content {
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-content, .goals-content {
+        gap: 50px;
+    }
+
+    .h1 {
+        font-size: 84px;
+    }
+
+    .mission-content > .image-section > img, .goals-content > .image-section > img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .h1 {
+        font-size: 78px;
+    }
+
+    .phantom {
+        display: flex;
+    }
+
+    .content {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .logo { 
+        width: 150px !important;
+        height: fit-content;
+    }
+
+    .goals-content > .image-section > img {
+        width: 85%;
+    }
+
+    .mission-content, .banner-content, .goals-content {
+        margin-bottom: 70px;
+    }
+
+    .goals-content > .text-section > .title, .title {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .h1 {
+        font-size: 54px;
+    }
+
+    .blue-ellipse{
+        width: 50px;
+        bottom: 110px;
+    }
+
+    .yellow-ellipse {
+        width: 50px;
+        top: 110px;
+    }
+
+    .goals-content > .image-section > img {
+        width: 95%;
+    }
+
+    .banner-content, .goals-content {
+        margin-bottom: 20px;
+    }
+
+    .text-section > .title, .title, .goals-content > .text-section > .title {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+
+    .text-section > .description {
+        line-height: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .h1 {
+        font-size: 42px;
+    }
+    
+    .blue-ellipse {
+        bottom: 90px;
+    }
+
+    .yellow-ellipse {
+        top: 90px;
+    }
+
+    .text-section > .title, .title, .goals-content > .text-section > .title {
+        font-size: 33px;
+    }
+
+    .text-section > .description {
+        text-align: center;
+    }
 }
