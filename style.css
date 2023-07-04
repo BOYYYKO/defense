@@ -177,6 +177,7 @@ a {
 
 .mission-content > .image-section > img {
     width: 100%;
+    height: auto;
 }
 
 .image-section {
@@ -335,6 +336,7 @@ a {
 .block > img {
     align-self: center;
     width: 85%;
+    height:fit-content;
     margin: 25px 0px;
     height: fit-content;
     border-radius: 0px 30px 0px 30px;
@@ -376,6 +378,7 @@ a {
 
 .coorp-img{
     width: 100%;
+    height:fit-content;
     border-radius: 80px 0px 80px 0px;
 }
 
