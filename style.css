@@ -510,6 +510,11 @@ a {
     .president {
         gap:20px;
     }
+    
+    .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
+        width: 60%;
+        height: auto;
+    }
 
     .blocks-section {
         flex-direction: column;
@@ -555,6 +560,7 @@ a {
         align-items: center;
         justify-content: center;
     }
+    
     .banner-content, .goals-content {
         gap: 50px;
     }
@@ -596,8 +602,9 @@ a {
         height: auto;
     }
 
-    .goals-content > .image-section > img, .president-content > .image-section > img{
-        width: 85%;
+    .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
+        width: 90%;
+        height: auto;
     }
 
     .mission-content, .president-content, .banner-content, .goals-content {
