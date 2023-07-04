@@ -33,7 +33,7 @@ body {
     background-size: auto;
     background-attachment: scroll;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     color: #191919;
     background-repeat: repeat-y;
 }
