@@ -262,6 +262,7 @@ a {
 
 .president-content {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
     padding-bottom: 150px;
 }
@@ -272,8 +273,8 @@ a {
 }
 
 .image-section > .president {
-    width: 550px;
-    height: auto;
+    width: 90%;
+    height: min-content;
 }
 
 .president-title {
@@ -461,7 +462,7 @@ a {
         height: auto;
     }
 
-    .mission-content {
+    .mission-content, .president-content{
         flex-direction: column-reverse;
         gap: 20px;
     }
@@ -469,7 +470,7 @@ a {
         justify-content: center;
     }
 
-    .goals-content > .image-section > img {
+    .goals-content > .image-section > img, .president-content > .image-section > img{
         width: 60%;
         height: auto;
         top: 0;
@@ -480,12 +481,16 @@ a {
         gap: 50px;
     }
 
-    .mission-content > .text-section, .goals-content > .text-section  {
+    .mission-content > .text-section, .goals-content > .text-section, .president-content > .text-section  {
         top: 0;
     }
 
     .text-section > .description {
         width: auto;
+    }
+    
+    .president {
+        gap:20px;
     }
 }
 
@@ -519,7 +524,7 @@ a {
         font-size: 84px;
     }
 
-    .mission-content > .image-section > img, .goals-content > .image-section > img {
+    .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
         width: 60%;
         height: auto;
     }
@@ -543,16 +548,20 @@ a {
         height: auto;
     }
 
-    .goals-content > .image-section > img {
+    .goals-content > .image-section > img, .president-content > .image-section > img{
         width: 85%;
     }
 
-    .mission-content, .banner-content, .goals-content {
+    .mission-content, .president-content, .banner-content, .goals-content {
         margin-bottom: 70px;
     }
 
     .goals-content > .text-section > .title, .title {
         font-size: 42px;
+    }
+
+    .president {
+        gap: 0;
     }
 }
 
@@ -571,7 +580,7 @@ a {
         top: 110px;
     }
 
-    .goals-content > .image-section > img {
+    .goals-content > .image-section > img, .president-content > .image-section > img{
         width: 95%;
     }
 
