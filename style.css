@@ -692,6 +692,10 @@ a {
     .footer-content > .column > .line > p, .footer-content > .column > .line > .numbers > p {
         font-size: 16px;
     }
+
+    .banner-button{
+        font-size: 16px !important;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -720,8 +724,5 @@ a {
         padding: 13px 26px;
     }
 
-    .banner-button{
-        font-size: 16px;
-    }
 
 }
