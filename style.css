@@ -598,12 +598,12 @@ a {
     }
 
     .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
-        width: 70%;
+        width: 40%;
         height: auto;
     }
 
     .mission-content, .president-content, .banner-content, .goals-content {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
     .goals-content > .text-section > .title, .title {
@@ -634,7 +634,7 @@ a {
     .lang-button {
         font-size: 12px;
     }
-    
+
     .h1 {
         font-size: 54px;
     }
