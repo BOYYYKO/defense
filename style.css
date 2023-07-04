@@ -450,10 +450,6 @@ a {
         padding-top: 40px;
     }
     
-    .button {
-        font-size: 18px;
-        padding: 10px 20px;
-    }
     .h1{
         font-size: 64px;
     }
@@ -708,6 +704,11 @@ a {
 
     .text-section > .description {
         text-align: center;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 13px 26px;
     }
 
 }
