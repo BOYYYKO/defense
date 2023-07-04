@@ -611,6 +611,20 @@ a {
     .president {
         gap: 0;
     }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .footer-content > .column {
+        width: 100%;
+    }
+
+    .footer-content > .column > .title{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -660,6 +674,11 @@ a {
 
     .ambassador-image {
         width: 90% !important;
+    }
+
+    .footer-content > .column > .title{
+        font-size: 36px;
+        padding-bottom: 10px;
     }
 }
 
