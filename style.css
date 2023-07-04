@@ -598,7 +598,7 @@ a {
     }
 
     .mission-content > .image-section > img, .goals-content > .image-section > img, .president-content > .image-section > img{
-        width: 90%;
+        width: 70%;
         height: auto;
     }
 
@@ -630,6 +630,11 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
+
+    .lang-button {
+        font-size: 12px;
+    }
+    
     .h1 {
         font-size: 54px;
     }
@@ -658,8 +663,9 @@ a {
         padding-bottom: 20px;
     }
 
-    .text-section > .description {
-        line-height: 35px;
+    .text-section > .description, .text-container > .description  {
+        font-size: 16px !important;
+        line-height: 20px !important;
     }
 
     .block {
@@ -681,6 +687,10 @@ a {
     .footer-content > .column > .title{
         font-size: 36px;
         padding-bottom: 10px;
+    }
+
+    .footer-content > .column > .line > p, .footer-content > .column > .line > .numbers > p {
+        font-size: 16px;
     }
 }
 
