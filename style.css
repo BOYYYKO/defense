@@ -151,22 +151,42 @@ a {
 
 .blue-ellipse {
     position: relative;
-    left: 110px;
     bottom: 140px;
+    left: 0px !important;
     transition: 0.4s;
 }
 
 .yellow-ellipse {
     position: relative;
     top: 150px;
-    right: 10px;
+    right: 20px;
     transition: 0.4s;
 }
+
+.blue-ellipse-ua {
+    position: relative;
+    left: 110px;
+    bottom: 140px;
+    transition: 0.4s;
+  }
+  
+  .yellow-ellipse-ua {
+    position: relative;
+    top: 150px;
+    right: 10px;
+    transition: 0.4s;
+  }
 
 .blue-ellipse:hover,
 .yellow-ellipse:hover {
     transform: scale(1.4);
 }
+
+.blue-ellipse-ua:hover,
+.yellow-ellipse-ua:hover {
+    transform: scale(1.4);
+}
+
 
 /* --MISSION-- */
 .mission-content {
@@ -460,16 +480,30 @@ a {
     .blue-ellipse {
         bottom: 100px;
         width: 70px;
-        left: 80px;
+        right: 10px;
         height: auto;
     }
 
     .yellow-ellipse {
         top: 120px;
-        right: 10px;
+        right: 40px;
         width: 70px;
         height: auto;
     }
+
+    .blue-ellipse-ua {
+        bottom: 100px;
+        width: 70px;
+        left: 80px;
+        height: auto;
+      }
+      
+      .yellow-ellipse-ua {
+        top: 120px;
+        right: 10px;
+        width: 70px;
+        height: auto;
+      }
 
     .mission-content,
     .president-content {
@@ -551,8 +585,18 @@ a {
 
     .yellow-ellipse {
         top: 140px;
-        right: 0px;
+        right: 40px;
     }
+
+    .blue-ellipse-ua {
+        bottom: 150px;
+        right: 0;
+      }
+      
+      .yellow-ellipse-ua {
+        top: 140px;
+        right: 0px;
+      }
 
     .revert {
         flex-direction: column;
@@ -673,6 +717,16 @@ a {
         top: 110px;
     }
 
+    .blue-ellipse-ua {
+        width: 50px;
+        bottom: 110px;
+      }
+      
+      .yellow-ellipse-ua {
+        width: 50px;
+        top: 110px;
+      }
+
     .goals-content>.image-section>img,
     .president-content>.image-section>img {
         width: 55%;
@@ -736,6 +790,13 @@ a {
     .yellow-ellipse {
         top: 90px;
     }
+    .blue-ellipse-ua {
+        bottom: 90px;
+      }
+      
+      .yellow-ellipse-ua {
+        top: 90px;
+      }
 
     .text-section>.title,
     .title,
